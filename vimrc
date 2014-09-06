@@ -1,4 +1,4 @@
- "#vimrc "
+"#vimrc "
 
 "设置undle
 set nocompatible              " be iMproved
@@ -18,12 +18,12 @@ Bundle "gmarik/vundle"
 "不在Github上的插件，需要写出git全路径
 
 "文件浏览
-Bundle "scrooloose/nerdtree"  
+Bundle "scrooloose/nerdtree"
 Bundle "fholgado/minibufexpl.vim"
 Bundle "scrooloose/syntastic"
 Bundle "kien/ctrlp.vim"
 "代码符号
-Bundle "taglist.vim"    
+Bundle "taglist.vim"
 Bundle "Shougo/neocomplcache.vim"
 "缩进标识
 Bundle "Yggdroot/indentLine"
@@ -31,13 +31,13 @@ let g:indentLine_noConcealCursor = 1
 let g:indentLine_color_term = 0
 let g:indentLine_char = '|'
 
-Bundle "winmanager"    
+Bundle "winmanager"
 "Bundle "Pydiction"
 Bundle "https://github.com/Lokaltog/vim-powerline"
 "vim 主题
 Bundle "altercation/vim-colors-solarized"
 Bundle "tomasr/molokai"
-filetype plugin indent on     " 
+filetype plugin indent on     "
 "undle设置完毕
 
 " basic setting"
@@ -50,6 +50,8 @@ set autoindent
 set nu
 set hls
 set cursorline
+set list
+set listchars=tab:>-,trail:·
 
 " set encoding
 set encoding=utf8
@@ -109,18 +111,18 @@ let Tlist_Exit_OnlyWindow = 1          "如果taglist窗口是最后一个窗口
 "let Tlist_Use_Right_Window = 1
 
 "miniExpBuffe
-let g:miniBufExplMapWindowNavVim = 1 
-let g:miniBufExplMapWindowNavArrows = 1 
-let g:miniBufExplMapCTabSwitchBufs = 1 
+let g:miniBufExplMapWindowNavVim = 1
+let g:miniBufExplMapWindowNavArrows = 1
+let g:miniBufExplMapCTabSwitchBufs = 1
 let g:miniBufExplModSelTarget = 1
 let g:miniBufExplMoreThanOne=0
 
 "Winmanager
-let g:winManagerWindowLayout='FileExplorer,BufExplorer|TagList' 
+let g:winManagerWindowLayout='FileExplorer,BufExplorer|TagList'
 let g:AutoOpenWinManager = 1
 let g:winManagerWidth = 35
 " key mapping"
-nmap wm :WMToggle<CR>  
+nmap wm :WMToggle<CR>
 map nt :NERDTree<CR>
 map rp :! python %
 map tl :TlistToggle<CR>
