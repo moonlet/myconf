@@ -10,7 +10,8 @@ git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
 2. get the .vimrc file
 
 ```shell
-wget ... ~/.vimrc
+cp ~/.vimrc ~/.vimrc.bk
+curl https://raw.githubusercontent.com/xiaorx/vimrc/master/vimrc > ~/.vimrc
 ```
 
 3. setup ctags
