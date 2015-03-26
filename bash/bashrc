@@ -1,5 +1,6 @@
 # some efficient alias
-alias rm='mv --target-directory=/home/work/.local/trash/'
+BIN_DIR=${HOME}/bin
+alias rm='${BIN_DIR}/trash'
 alias del='/bin/rm'
 alias drf='/bin/rm -rf'
 alias g2u='iconv -f gb18030 -t utf-8'
