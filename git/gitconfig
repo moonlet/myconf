@@ -1,0 +1,25 @@
+[user]
+    email = xiaorx@live.com
+    name = moonlet
+[color]
+    ui = true
+[alias]
+    st = status
+    ci = commit
+    br = branch
+    co = checkout
+    sb = show-branch
+    lg = log --stat
+    last = log --stat -1
+    diffstat = diff --stat -r
+    changes = diff --name-status -r
+    unstage = reset HEAD --
+    pl = pull
+    ps = push
+    dt = difftool
+    cp = cherry-pick
+[core]
+    pager = less -+FRSX -FRX
+    editor = vim
+[i18n]
+    commitEncoding = UTF-8

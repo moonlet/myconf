@@ -1,0 +1,17 @@
+# some efficient alias
+alias rm='mv --target-directory=/home/work/.local/trash/'
+alias del='/bin/rm'
+alias drf='/bin/rm -rf'
+alias g2u='iconv -f gb18030 -t utf-8'
+alias u2g='iconv -f utf-8 -t gb18030'
+alias lh='ll -h'
+alias wcl='wc -l'
+alias sortu='LC_ALL=C sort -u'
+alias sort='LC_ALL=C sort'
+alias spwd='echo xiao@$HOSTNAME:$(pwd)'
+alias py='python'
+
+# decorate your terminal
+export PS1='\[\033[0;34;1m\]\u\[\033[0;32;1m\]@\[\033[0;37;1m\]\h\[\033[1;32;1m\]:\[\033[0;37;1m\]\W\[\033[0;31;1m\] $ \[\033[0;0;0m\]'
+export LS_COLORS='*.py=0;31:*.php=0;34';
+export TERM=xterm-256color
