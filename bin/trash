@@ -53,7 +53,6 @@ class Trash(object):
         des_file_name = file_name
         if count != 0:
             des_file_name = "{0}.{1}".format(file_name, count)
-        print des_file_name
         return des_file_name
 
     def MoveFile(self, src_path, des_file_name):
