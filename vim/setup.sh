@@ -18,7 +18,7 @@ git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
 
 # 3. get the vimrc file
 cp ~/.vimrc ~/.vimrc.bk
-curl https://raw.githubusercontent.com/xiaorx/vimrc/master/vim/vimrc > ~/.vimr
+curl https://raw.githubusercontent.com/xiaorx/vimrc/master/vim/vimrc > ${HOME}/.vimrc
 
 # 4. setup pep8
 sudo pip install pep8
